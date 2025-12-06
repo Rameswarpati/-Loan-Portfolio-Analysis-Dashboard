@@ -1,6 +1,201 @@
-<img width="928" height="570" alt="Image" src="https://github.com/user-attachments/assets/770f6ff5-7dc5-4e8d-acb6-6d1b2eeb9467" />
-<img width="1635" height="640" alt="Image" src="https://github.com/user-attachments/assets/1b8150d9-991a-4e61-bbac-d9fdad7a3406" />
-<img width="618" height="323" alt="Image" src="https://github.com/user-attachments/assets/103a68b2-4758-4562-9aa7-b255124f3337" />
-<img width="931" height="632" alt="Image" src="https://github.com/user-attachments/assets/686d93ae-04b3-4130-85f5-9e23ff09818e" />
-<img width="865" height="581" alt="Image" src="https://github.com/user-attachments/assets/788dcade-1f49-4d6b-8662-8c9e76998fa0" />
-<img width="1190" height="597" alt="Image" src="https://github.com/user-attachments/assets/ab3dd615-d9a3-42fb-9d9e-f7bcb3555b7f" />
+
+Loan Application	Total Funded Amt	Total Avg. Received	Avg.Int Rate	Avg. Dti
+Count of id	    Sum  of loan_amount  	Sum of total_payment   	Average of int_rate	     Average of dti
+   38.6k           	$435.8M	               $473.1M	              12.05%	                 13.33%
+
+MTD Measures					
+	               Loan Application	   Total Funded Amt	     Total Avg. Received	   Avg.Int Rate    	          Avg. Dti
+Row Labels	     Count of id	      Sum of loan_amount	  Sum of total_payment	  Average of int_rate	      Average of dti
+    Dec	            4.3k	               $54.0M                 	$58.1M	            12.36%	                  13.67%
+
+PMTD Measures
+| Row Labels | Loan Application | Total Funded Amt | Total Avg. Received | Avg. Int Rate | Avg. DTI |
+| Nov        | 4.0k             | $47.8M           | $50.1M              | 11.94%        | 13.30%   |
+
+MoM Measures
+| Measure | Loan Application | Total Funded Amt | Total Avg. Received | Avg. Int Rate | Avg. DTI |
+| MoM %   | 6.91%            | 13.04%           | 15.84%              | 3.47%         | 2.73%    |
+
+
+
+
+gud loan issued and bad loan issued	:	                                          
+	                        Column Labels	
+Values	                  Bad Loan  	 Good Loan
+Count of id	               13.82%   	   86.18%
+Count of id2	             5333	         33243
+Sum of loan_amount	       $65.5M	       $370.2M
+Sum of total_payment	     $37.3M	       $435.8M
+		
+Good Loan Percentage	86.18%
+Total Loan Application	33.2k
+Total Funded Amount	$370.2M
+Total Amount Recived	$435.8M
+	
+Bad Loan Percentage	13.82%
+Total Loan Application	5.3k
+Total Funded Amount	$65.5M
+Total Amount Recived	$37.3M
+
+Good Loan Percentage	0.861753422
+Bad Loan Percentage	0.138246578
+
+
+
+Status Breakdown	:
+
+Row Labels	Count of id2
+Current	1.1k
+Charged Off	5.3k
+Fully Paid	32.1k
+
+Row Labels	Sum of loan_amount
+Current	$18.9M
+Charged Off	$65.5M
+Fully Paid	$351.4M
+
+Row Labels	Sum of total_payment
+Current	$24.2M
+Charged Off	$37.3M
+Fully Paid	$411.6M
+
+Row Labels	Average of int_rate
+Current	15.10%
+Charged Off	13.88%
+Fully Paid	11.64%
+
+
+
+monthly trends		
+Row Labels	Count of id2	
+Jan         	2.3k	
+Feb	          2.3k	
+Mar	          2.6k	
+Apr	          2.8k	
+May	          2.9k	
+Jun	          3.2k	
+Jul	          3.4k	
+Aug	          3.4k	
+Sep	          3.5k	
+Oct	          3.8k	
+Nov	          4.0k	
+Dec	          4.3k	
+
+
+
+
+State map	
+	
+Row Labels	Count of id2
+AK	            0.1k
+AL	            0.4k
+AR	            0.2k
+AZ	            0.8k
+CA	            6.9k
+CO	            0.8k
+CT	            0.7k
+DC	            0.2k
+DE	            0.1k
+FL	            2.8k
+GA            	1.4k
+HI	            0.2k
+IA	            0.0k
+ID	            0.0k
+IL	            1.5k
+IN	            0.0k
+KS	            0.3k
+KY	            0.3k
+LA	            0.4k
+MA	            1.3k
+MD	            1.0k
+ME	            0.0k
+MI	            0.7k
+MN	            0.6k
+MO	            0.7k
+MS	            0.0k
+MT	            0.1k
+NC	            0.8k
+NE	            0.0k
+NH	            0.2k
+NJ	            1.8k
+NM	            0.2k
+NV	            0.5k
+NY	            3.7k
+OH	            1.2k
+OK	            0.3k
+OR	            0.4k
+PA	            1.5k
+RI	            0.2k
+SC	            0.5k
+SD	            0.1k
+TN	            0.0k
+TX	            2.7k
+UT	            0.3k
+VA	            1.4k
+VT	            0.1k
+WA	            0.8k
+WI	            0.4k
+WV	            0.2k
+WY	            0.1k
+
+
+
+			
+Term Analysis	:		
+		Row Labels	   Count of id2
+		 36 months	      28.2k
+		 60 months      	10.3k
+			
+
+
+Employment Length Analysis:			
+			
+		Row Labels	    Count of id2
+		9 years	            1.3k
+		8 years           	1.5k
+		7 years	            1.8k
+		6 years           	2.2k
+		1 year             	3.2k
+		5 years            	3.3k
+		4 years            	3.4k
+		3 years	            4.1k
+		2 years             4.4k
+		< 1 year	          4.6k
+		10+ years         	8.9k
+
+
+
+Loan Purpose Distribution:		
+
+		Row Labels	                 Count of id2
+		renewable_energy                	0.1k
+		educational                      	0.3k
+		vacation                         	0.4k
+		house                           	0.4k
+		moving                           	0.6k
+		medical                         	0.7k
+		wedding                         	0.9k
+		car	                              1.5k
+		small business                   	1.8k
+		major purchase	                  2.1k
+		home improvement                	2.9k
+		other	                            3.8k
+		credit card	                      5.0k
+		Debt consolidation              	18.2k
+
+
+
+
+Home Ownership Segmentation	:	
+			
+		Row Labels	          Count of id2
+		MORTGAGE	                17.2k
+		NONE	                    0.0k
+		OTHER                   	0.1k
+		OWN	                      2.8k
+		RENT	                    18.4k
+
+
+
+
+
